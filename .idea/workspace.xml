@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580414479407</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="docker-compose.yml added, also connection works">
+      <created>1580414696801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580414696801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +222,8 @@
     <MESSAGE value="travis code updated for network" />
     <MESSAGE value="changes merged into develop from feature" />
     <MESSAGE value="added Dockerfile to db file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Dockerfile to db file" />
+    <MESSAGE value="docker-compose.yml added, also connection works" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose.yml added, also connection works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
@@ -237,11 +234,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580414477343">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580414695545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580414477343" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580414695545" />
     <state width="949" height="283" key="GridCell.Tab.0.bottom" timestamp="1580414587108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,11 +263,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580414486532">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580414702757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580414486532" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580414702757" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
