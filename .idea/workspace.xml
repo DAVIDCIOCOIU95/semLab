@@ -5,11 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.1-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +98,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="JAR Application.seMethods-0.1.0.2-jar-with-dependencies.jar" />
       </list>
@@ -113,6 +110,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.13963962" />
           <treeState>
             <expand>
               <path>
@@ -129,12 +127,6 @@
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="db" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -243,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580415568465</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="everything working before starting exercise.&#10;app and db communicating on docker">
+      <created>1580417050818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580417050818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,7 +259,8 @@
     <MESSAGE value="docker-compose.yml added, also connection works" />
     <MESSAGE value="app updated with methods connect and disconnet then called from main" />
     <MESSAGE value="employee code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee code added" />
+    <MESSAGE value="everything working before starting exercise.&#10;app and db communicating on docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything working before starting exercise.&#10;app and db communicating on docker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
@@ -271,40 +271,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580415567246">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580417049571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580415567246" />
-    <state width="949" height="283" key="GridCell.Tab.0.bottom" timestamp="1580416952018">
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417049571" />
+    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1580427311571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580416952018" />
-    <state width="949" height="283" key="GridCell.Tab.0.center" timestamp="1580416952017">
+    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
+    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1580427311571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580416952017" />
-    <state width="949" height="283" key="GridCell.Tab.0.left" timestamp="1580416952016">
+    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
+    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1580427311571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580416952016" />
-    <state width="949" height="283" key="GridCell.Tab.0.right" timestamp="1580416952018">
+    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
+    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1580427311571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580416952018" />
+    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
     <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580415580888">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580417057731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580415580888" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417057731" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
