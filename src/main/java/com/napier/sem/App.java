@@ -12,9 +12,13 @@ public class App
         // Connect to database
         a.connect();
         // Get Employee
-        Employee emp = a.getEmployee(255530);
+        //Employee emp = a.getEmployee(255530);
         // Display results
-        a.displayEmployee(emp);
+       // a.displayEmployee(emp);
+
+        // Try to display world details
+        a.displayWorld();
+
 
         // Disconnect from database
         a.disconnect();
@@ -50,7 +54,7 @@ public class App
                 // Wait a bit for db to start
                 Thread.sleep(30000);
                 // Connect to database
-                con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?useSSL=false", "root", "example");
+                con = DriverManager.getConnection("jdbc:mysql://db:3306/world?useSSL=false", "root", "example");
                 System.out.println("Successfully connected");
                 break;
             }
@@ -161,6 +165,38 @@ public class App
                             + "Salary:" + emp.salary + "\n"
                             + emp.dept_name + "\n"
                             + "Manager: " + emp.manager + "\n");
+        }
+    }
+
+    public void displayWorld() {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT Name, Population " +
+                            "FROM country " +
+                            "ORDER BY Population ASC";
+
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            ResultSetMetaData rsmd = rset.getMetaData();
+            int columnsNumber = rsmd.getColumnCount();
+            while(rset.next()) {
+
+                    String columnValue = rset.getString("Name");
+                    System.out.println(columnValue );
+            }
+
+            // Check one is returned
+
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get employee details");
+            return;
         }
     }
 }

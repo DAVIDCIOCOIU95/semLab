@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -49,25 +52,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
-      <module name="seMethods" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.napier.sem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\IdeaProjects\sem\db" />
+      <recent name="C:\Users\david\IdeaProjects\sem\mydb\test_db" />
+      <recent name="C:\Users\david\IdeaProjects\sem\mydb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.mydb/Dockerfile">
     <configuration name="seMethods-0.1.0.2-jar-with-dependencies.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" />
       <method v="2" />
@@ -96,13 +94,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="mydb/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="mydb/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Docker.mydb/Dockerfile" />
+        <item itemvalue="JAR Application.seMethods-0.1.0.2-jar-with-dependencies.jar" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="JAR Application.seMethods-0.1.0.2-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -276,44 +282,48 @@
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417049571" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1580427311571">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="274" key="GridCell.Tab.0.bottom" timestamp="1580434591282">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1580427311571">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580434591282" />
+    <state width="1053" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580431843700" />
+    <state width="1237" height="274" key="GridCell.Tab.0.center" timestamp="1580434591282">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1580427311571">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580434591282" />
+    <state width="1053" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580431843699" />
+    <state width="1237" height="274" key="GridCell.Tab.0.left" timestamp="1580434591282">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1580427311571">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580434591282" />
+    <state width="1053" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580431843699" />
+    <state width="1237" height="274" key="GridCell.Tab.0.right" timestamp="1580434591282">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
+    <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580434591282" />
+    <state width="1053" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580431843699" />
     <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580417057731">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580427671892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417057731" />
-    <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580427671892" />
+    <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580429609198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579623605480" />
-    <state x="506" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580413312203" />
+    <state x="506" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580429609198" />
     <state x="1141" y="305" key="git4idea.merge.GitPullDialog" timestamp="1579950125635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1141" y="305" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579950125635" />
+    <state x="685" y="141" key="new project wizard" timestamp="1580429639080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580429639080" />
     <state x="1091" y="265" key="search.everywhere.popup" timestamp="1580413387929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
