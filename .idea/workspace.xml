@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580417050818</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lab4 integration:&#10;* array for employees in order to get salaries">
+      <created>1581114411590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581114411590</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,7 +269,8 @@
     <MESSAGE value="app updated with methods connect and disconnet then called from main" />
     <MESSAGE value="employee code added" />
     <MESSAGE value="everything working before starting exercise.&#10;app and db communicating on docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything working before starting exercise.&#10;app and db communicating on docker" />
+    <MESSAGE value="lab4 integration:&#10;* array for employees in order to get salaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4 integration:&#10;* array for employees in order to get salaries" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Docker" timestamp="1581109636702">
@@ -284,39 +291,40 @@
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417049571" />
-    <state width="1877" height="460" key="GridCell.Tab.0.bottom" timestamp="1581114028077">
+    <state width="1877" height="460" key="GridCell.Tab.0.bottom" timestamp="1581115072162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
-    <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
     <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
-    <state width="1877" height="460" key="GridCell.Tab.0.center" timestamp="1581114028077">
+    <state width="1877" height="460" key="GridCell.Tab.0.center" timestamp="1581115072162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
-    <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
     <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
-    <state width="1877" height="460" key="GridCell.Tab.0.left" timestamp="1581114028076">
+    <state width="1877" height="460" key="GridCell.Tab.0.left" timestamp="1581115072162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
-    <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028076" />
+    <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
     <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
-    <state width="1877" height="460" key="GridCell.Tab.0.right" timestamp="1581114028077">
+    <state width="1877" height="460" key="GridCell.Tab.0.right" timestamp="1581115072162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
-    <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
     <state x="549" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581113059781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="549" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581113059781" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580417057731">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1581114524681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417057731" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
       <screen x="0" y="0" width="1920" height="1040" />
