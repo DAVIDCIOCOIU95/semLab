@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -52,7 +55,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,9 +102,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.db/Dockerfile" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JAR Application.seMethods-0.1.0.2-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
@@ -110,7 +113,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.13963962" />
+          <option name="contentProportion" value="0.35264057" />
           <treeState>
             <expand>
               <path>
@@ -263,6 +266,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="everything working before starting exercise.&#10;app and db communicating on docker" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Docker" timestamp="1581109636702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Docker/0.0.1280.680@0.0.1280.680" timestamp="1581109636702" />
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,35 +278,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580417049571">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1581114393260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580417049571" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1580427311571">
+    <state width="1877" height="460" key="GridCell.Tab.0.bottom" timestamp="1581114028077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1580427311571">
+    <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
+    <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
+    <state width="1877" height="460" key="GridCell.Tab.0.center" timestamp="1581114028077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1580427311571">
+    <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
+    <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
+    <state width="1877" height="460" key="GridCell.Tab.0.left" timestamp="1581114028076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1580427311571">
+    <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
+    <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028076" />
+    <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
+    <state width="1877" height="460" key="GridCell.Tab.0.right" timestamp="1581114028077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580427311571" />
-    <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
+    <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114028077" />
+    <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
+    <state x="549" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581113059781">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
+    <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
+    <state x="549" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581113059781" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580417057731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,6 +327,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1141" y="305" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579950125635" />
+    <state x="412" y="206" key="git4idea.rebase.GitRebaseDialog" timestamp="1581109463423">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="206" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1581109463423" />
     <state x="1091" y="265" key="search.everywhere.popup" timestamp="1580413387929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
