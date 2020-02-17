@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/use-cases/HR System.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.3.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Use Case" />
       </list>
     </option>
   </component>
@@ -50,11 +49,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -114,28 +114,7 @@
         <serviceView>
           <option name="contentProportion" value="0.35264057" />
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -315,10 +294,10 @@
     <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581113679728" />
-    <state x="549" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581113059781">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="366" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581949954214">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
+    <state x="366" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581949954214" />
     <state x="549" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581113059781" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1581114524681">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -339,9 +318,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="412" y="206" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1581109463423" />
-    <state x="1091" y="265" key="search.everywhere.popup" timestamp="1580413387929">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="727" y="173" key="search.everywhere.popup" timestamp="1581948664140">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="727" y="173" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581948664140" />
     <state x="1091" y="265" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580413387929" />
   </component>
 </project>
