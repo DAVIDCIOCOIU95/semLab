@@ -69,6 +69,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -477,12 +479,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582929853988">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582933673074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929853988" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582933673074" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
