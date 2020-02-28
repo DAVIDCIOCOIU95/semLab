@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="57" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -64,12 +69,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.com.napier.sem in seMethods">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -83,22 +88,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seMethods-0.1.0.2-jar-with-dependencies.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/seMethods-0.1.0.2-jar-with-dependencies.jar" />
-      <method v="2" />
+    <configuration name="AppTest.displayEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seMethods" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.AppTest" />
+      <option name="METHOD_NAME" value="displayEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="seMethods" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.napier.sem in seMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seMethods" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.App" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.AppTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.Department" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.Employee" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="db/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="db/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -111,13 +164,20 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="JUnit.com.napier.sem in seMethods" />
+      <item itemvalue="JUnit.AppTest.displayEmployee" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.napier.sem in seMethods" />
+        <item itemvalue="JUnit.AppTest.displayEmployee" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JAR Application.seMethods-0.1.0.2-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582929577995</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lab 7 dependencies added">
+      <created>1582930862081</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582930862082</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,9 +386,14 @@
     <MESSAGE value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields" />
     <MESSAGE value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields&#10;Added two new methods in app" />
     <MESSAGE value="Lab 6 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 6 completed" />
+    <MESSAGE value="lab 7 dependencies added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 7 dependencies added" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="170" key="#AppTest.displayEmployeeEmpty/0.0.1920.1040@0.0.1920.1040" timestamp="1582933513656" />
     <state x="233" y="0" key="#Docker" timestamp="1581109636702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -338,55 +410,83 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1006" y="168" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1582926647492" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582926652824">
+    <state x="918" y="30" width="1002" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582932331657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582926652824" />
+    <state x="918" y="30" width="1002" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582932331657" />
+    <state x="1021" y="110" width="787" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582931474528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1021" y="110" width="787" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582931474528" />
+    <state x="1148" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582932326318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1148" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582932326318" />
     <state x="1144" y="257" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582921029303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1144" y="257" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582921029303" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1582929576695">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1582930860894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929576695" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582929662879">
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582930860894" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1582933525363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582929662879">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582933525363" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1582933525362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582929662879">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582933525362" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1582933525362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582929662879">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582933525362" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1582933525363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
-    <state x="549" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581113059781">
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582933525363" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582933386611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582933386611" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582933386611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582933386611" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582933386611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582933386611" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582933386611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582933386611" />
+    <state x="935" y="36" width="963" height="851" key="SettingsEditor" timestamp="1582931212340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
-    <state x="549" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581113059781" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582929584570">
+    <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582929853988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929584570" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929853988" />
+    <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1582933453380" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -412,5 +512,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1091" y="265" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580413387929" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seMethods$com_napier_sem_in_seMethods.ic" NAME="com.napier.sem in seMethods Coverage Results" MODIFIED="1582932829622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.App</FILTER>
+      <FILTER>com.napier.sem.AppTest</FILTER>
+      <FILTER>com.napier.sem.Department</FILTER>
+      <FILTER>com.napier.sem.Employee</FILTER>
+    </SUITE>
   </component>
 </project>
