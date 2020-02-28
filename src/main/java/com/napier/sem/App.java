@@ -130,7 +130,7 @@ public class App
             rset =stmt.executeQuery(strSelectDep);
             //String deptNumb;
             if(rset.next()) {
-                emp.dept_name = rset.getString("departments.dept_name");
+                emp.dept = rset.getString("departments.dept_name");
                // deptNumb = rset.getString("departments.dept_no");
             } else {
                 return null;
@@ -168,7 +168,7 @@ public class App
                             + emp.last_name + "\n"
                             + emp.title + "\n"
                             + "Salary:" + emp.salary + "\n"
-                            + emp.dept_name + "\n"
+                            + emp.dept + "\n"
                             + "Manager: " + emp.manager + "\n");
         }
     }
