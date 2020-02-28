@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" afterDir="false" />
     </list>
@@ -137,6 +135,17 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -156,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579623600078</updated>
-      <workItem from="1582920765351" duration="8579000" />
+      <workItem from="1582920765351" duration="8969000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1579624867511</created>
@@ -277,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582921400559</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lab 6 completed">
+      <created>1582929577995</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1582929577995</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +318,8 @@
     <MESSAGE value="lab6: UML class diagram created" />
     <MESSAGE value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields" />
     <MESSAGE value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields&#10;Added two new methods in app" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields&#10;Added two new methods in app" />
+    <MESSAGE value="Lab 6 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 6 completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Docker" timestamp="1581109636702">
@@ -329,47 +346,47 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1144" y="257" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582921029303" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1582921399324">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1582929576695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582921399324" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582929508414">
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929576695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582929662879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582929508414" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582929508414">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582929662879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582929508414" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582929508414">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582929662879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582929508414" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582929508414">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582929662879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581111860167" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581115072162" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582929508414" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582929662879" />
     <state x="549" y="0" width="914" height="680" key="SettingsEditor" timestamp="1581113059781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="549" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581113059781" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582921405669">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1582929584570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582921405669" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582929584570" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580413312203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
