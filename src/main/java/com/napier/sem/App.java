@@ -119,6 +119,7 @@ public class App {
             }
 
             // Select department
+
             String strSelectDep = "SELECT departments.dept_name, departments.dept_no " +
                     "FROM departments JOIN dept_emp ON departments.dept_no=dept_emp.dept_no " +
                     "WHERE dept_emp.emp_no = " + ID;
