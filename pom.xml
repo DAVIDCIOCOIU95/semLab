@@ -12,15 +12,16 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.44</version>
+            <version>[8.0,)</version>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.1.0</version>
+            <version>[5.1.0,)</version>
             <scope>test</scope>
         </dependency>
+        
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -80,7 +81,7 @@
                         <version>5.1.0</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin>moodle
         </plugins>
 
 
