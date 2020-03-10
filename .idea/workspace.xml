@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -104,18 +108,6 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="kevinchalmers/employees:latest" />
-          <option name="commandLineOptions" value="-e MYSQL_ROOT_PASSWORD=example -p 33060:3306" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -124,20 +116,28 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Docker.Docker Image" />
       <item itemvalue="JAR Application.seMethods-0.1.0.4.jar" />
       <item itemvalue="JAR Application.seMethods-0.1.0.4-jar-with-dependencies.jar" />
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.App" />
         <item itemvalue="JAR Application.seMethods-0.1.0.4-jar-with-dependencies.jar" />
         <item itemvalue="JAR Application.seMethods-0.1.0.4.jar" />
-        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +151,23 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: docker-compose.yml" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="db" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -360,14 +377,27 @@
       <option name="project" value="LOCAL" />
       <updated>1583839105787</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test">
+      <created>1583839318187</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583839318187</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd">
+      <created>1583839383829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583839383829</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis" />
     <MESSAGE value="travis new version: 1.6" />
     <MESSAGE value="trial 25.01.20" />
     <MESSAGE value="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run" />
@@ -391,7 +421,9 @@
     <MESSAGE value="lab8 up to main modified&#10;added travis" />
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version" />
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d" />
+    <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test" />
+    <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
@@ -434,12 +466,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1134" y="75" key="#db/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583835506941" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583839317649">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583839383301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583685439964" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839317649" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839383301" />
     <state width="927" height="250" key="GridCell.Tab.0.bottom" timestamp="1583838643591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -485,12 +517,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583839324849">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583839393997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583685422327" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839324849" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839393997" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
