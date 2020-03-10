@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="" />
+    <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -351,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583838899327</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d">
+      <created>1583839105787</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583839105787</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +390,8 @@
     <MESSAGE value="lab8 up to main modified" />
     <MESSAGE value="lab8 up to main modified&#10;added travis" />
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version" />
+    <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
@@ -424,12 +434,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1134" y="75" key="#db/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583835506941" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583838898682">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583839105264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583685439964" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583838898682" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839105264" />
     <state width="927" height="250" key="GridCell.Tab.0.bottom" timestamp="1583838643591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,12 +485,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583837551060">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583839111708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583685422327" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583837551060" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839111708" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
