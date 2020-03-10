@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -391,14 +385,20 @@
       <option name="project" value="LOCAL" />
       <updated>1583839383829</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd&#10;travis deploy updated">
+      <created>1583839869640</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583839869640</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="travis new version: 1.6" />
     <MESSAGE value="trial 25.01.20" />
     <MESSAGE value="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run" />
     <MESSAGE value="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run&#10;----&#10;this commit: java app code updated for connection to mongodb server; &#10;remember to have the docker mongodb container running when running the app so the connection can be made;" />
@@ -423,7 +423,8 @@
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d" />
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test" />
     <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd" />
+    <MESSAGE value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd&#10;travis deploy updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis 2&#10;maven to old version&#10;added travis 3d&#10;added integraton test&#10;updated travis with script integr testd&#10;travis deploy updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
@@ -466,12 +467,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1134" y="75" key="#db/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583835506941" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583839383301">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583839869075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583685439964" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839383301" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839869075" />
     <state width="927" height="250" key="GridCell.Tab.0.bottom" timestamp="1583838643591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -517,12 +518,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583839393997">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583839874727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583685422327" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839393997" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839874727" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
