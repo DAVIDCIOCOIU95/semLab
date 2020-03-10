@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +195,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -369,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582933750645</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="lab8 up to main modified&#10;added travis">
+      <created>1583837540570</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583837540570</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +407,8 @@
     <MESSAGE value="Lab 6 completed" />
     <MESSAGE value="lab 7 dependencies added" />
     <MESSAGE value="lab8 up to main modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified" />
+    <MESSAGE value="lab8 up to main modified&#10;added travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified&#10;added travis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
@@ -440,12 +451,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1134" y="75" key="#db/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583835506941" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1583685439964">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1583837539993">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583685439964" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114393260" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582933724115" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583837539993" />
     <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1582935182439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -491,12 +502,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583835910123">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583837551060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583685422327" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583835910123" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583837551060" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
