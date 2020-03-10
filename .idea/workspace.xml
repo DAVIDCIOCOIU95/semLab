@@ -4,8 +4,6 @@
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +205,7 @@
       <workItem from="1582933660823" duration="732000" />
       <workItem from="1583405578173" duration="1258000" />
       <workItem from="1583684025507" duration="1252000" />
+      <workItem from="1583835495006" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1579624867511</created>
@@ -421,6 +420,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1144" y="257" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582921029303" />
+    <state x="1134" y="75" key="#db/Dockerfile" timestamp="1583835506941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1134" y="75" key="#db/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583835506941" />
     <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1583685439964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
