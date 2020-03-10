@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +72,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="JUnit.com.napier.sem in seMethods">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -145,10 +146,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
         <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="kevinchalmers/employees:latest" />
+          <option name="commandLineOptions" value="-e MYSQL_ROOT_PASSWORD=example -p 33060:3306" />
         </settings>
       </deployment>
       <method v="2" />
@@ -164,17 +169,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.Docker Image" />
       <item itemvalue="JUnit.com.napier.sem in seMethods" />
       <item itemvalue="JUnit.AppTest.displayEmployee" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.napier.sem in seMethods" />
-        <item itemvalue="JUnit.AppTest.displayEmployee" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,17 @@
         <serviceView>
           <option name="contentProportion" value="0.35264057" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -381,7 +396,8 @@
     <MESSAGE value="lab6: UML class diagram created&#10;Renamed fields in classes&#10;Errors present in app: logic needs to be adapted to new fields&#10;Added two new methods in app" />
     <MESSAGE value="Lab 6 completed" />
     <MESSAGE value="lab 7 dependencies added" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 7 dependencies added" />
+    <MESSAGE value="lab8 up to main modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab8 up to main modified" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="170" key="#AppTest.displayEmployeeEmpty" timestamp="1582933513656">
@@ -392,14 +408,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Docker/0.0.1280.680@0.0.1280.680" timestamp="1581109636702" />
-    <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
+    <state x="1128" y="181" key="#Docker_Image" timestamp="1583837414757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580039696463" />
-    <state x="1001" y="192" key="#Pull_Image" timestamp="1580036904268">
+    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1583837414757" />
+    <state x="1001" y="192" key="#Pull_Image" timestamp="1583836124869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
+    <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1583836124869" />
     <state x="1006" y="168" key="#SQL_Dialects" timestamp="1582926647492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,12 +491,12 @@
     </state>
     <state x="549" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581110998839" />
     <state x="935" y="36" width="963" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582931212340" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1583685422327">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1583835910123">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583685422327" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1581114524681" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582933790189" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583835910123" />
     <state width="1918" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1582933453380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
